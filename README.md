@@ -1,31 +1,22 @@
 
-# Text-Based Adventure Game
+# Propaganda Detector
 
-A simple, classic text-based adventure game implemented in Python.
+A web and mobile application to analyze text and articles for propaganda using the Gemini API.
 
-## How to Play
+## Project Overview
 
-To play the game, run the following command in your terminal:
+This project consists of three main components:
 
-```bash
-python3 src/game.py
-```
+1.  **Backend API:** A FastAPI server that accepts text or a URL, fetches the content, and uses the Gemini API to analyze it for propaganda.
+2.  **Web Frontend:** A React application that provides a user interface for submitting content to the backend and displaying the results.
+3.  **Mobile App:** A Flutter application for Android and iOS that provides a native mobile experience with the same functionality.
 
-## Gameplay
+## Technology Stack
 
-You can interact with the game using simple commands:
+*   **Backend:** Python, FastAPI
+*   **Web Frontend:** React (TypeScript), Bootstrap
+*   **Mobile App:** Flutter
 
-*   `go [direction]`: Move to a new room (e.g., `go north`).
-*   `take [item]`: Pick up an item (e.g., `take key`).
-*   `inventory`: Check what items you are carrying.
-*   `talk`: Talk to a character in the room.
-*   `dig`: Dig in the garden if you have a shovel.
-*   `quit`: Exit the game.
+## Implementation Plan
 
-## Features
-
-*   A game world with multiple rooms to explore.
-*   Items to collect and use.
-*   Characters to interact with.
-*   Puzzles to solve.
-*   A clear win condition.
+The detailed implementation plan for this project is documented in `PLAN.md`.
